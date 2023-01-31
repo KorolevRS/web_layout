@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/fonts/Gilroy-Bold.ttf');
+    font-family: 'Gilroy-Medium';
+    src: url('/fonts/Gilroy-Medium.ttf');
+    font-family: 'Gilroy-Semibold';
+    src: url('/fonts/Gilroy-Semibold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #ffffff;
+}
+
+h1,
+p,
+button,
+a {
+    font-style: normal;
+    color: #000000;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+header {
+    margin-bottom: 84px;
+}
+
+.menu__bar {
+    padding: 39px 0;
+    margin-bottom: 84;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__link {
+    width: 533px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu__link a {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu__link .firstLink {
+    color: #F25822;
+}
+
+.main {
+    margin-bottom: 259px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+}
+
+.text__content h1 {
+    margin-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.text__content p {
+    margin-bottom: 37px;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    width: 466px;
+}
+
+button {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 35px;
+}
+
+.button__content {
+    display: flex;
+    justify-content: left;
+    gap: 72px;
+}
+
+.button__whatch {
+    color: #AAAAAA;
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 0%;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    margin-bottom: 96px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
