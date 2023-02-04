@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/fonts/Gilroy-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('/fonts/Gilroy-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main {
+    width: 1915px;
+    height: 491px;
+    color: #000000;
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.features__in {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.frame__pic {
+    margin-bottom: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic1 {
+    background: rgba(182, 50, 56, 0.28);
+}
+
+.pic2 {
+    background: rgba(20, 146, 17, 0.28);
+}
+
+.pic3 {
+    background: rgba(255, 205, 29, 0.24);
+}
+
+.features__in img {
+    width: 25px;
+    height: 25px;
+}
+
+.shadowFeatures {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    width: 310px;
+}
+
+.features__in h1 {
+    margin-bottom: 17px;
+}
+
+.features__in p {
+    margin-bottom: 25px;
+}
+
+.features button {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border-radius: 0%;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    width: 64px;
+}
+
+.container {
+    width: 1920px;
+    height: 919px;
+    background: #FAFAFA;
+    margin: 0 auto;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+.textBig {
+    width: 579px;
+    font-size: 45px;
+    line-height: 53px;
+    margin: 0 auto 19px auto;
+}
+
+.paragrafOther {
+    margin: 0px auto 55px;
+    font-size: 16px;
+    width: 682px;
+    text-align: center;
+}
+
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    height: 549px;
+}
+
+.center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.card h1 {
+    margin-top: 25px;
+}
+
+.card button {
+    margin-top: 39px;
+    margin-bottom: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Gilroy-Bold';
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
