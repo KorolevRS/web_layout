@@ -46,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
   background: #222222;
-  padding-right: 240px;
+  padding-right: 180px;
   padding-left: 231px;
 }
 
@@ -152,6 +152,7 @@
   color: #222222;
   border-left: 12px solid #F16D7F;
   padding-left: 16px;
+  margin-bottom: 87px;
 }
 
 .text__main__brand h1 {
@@ -439,6 +440,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  margin-bottom: 32px;
 }
 
 .subsribe_info img {
@@ -581,6 +583,10 @@ form button {
     height: 367px;
   }
 
+  .text__main__brand {
+    margin-bottom: 0;
+  }
+
   .text__main__brand h1 {
     font-size: 44px;
     line-height: 53px;
@@ -656,7 +662,7 @@ form button {
   /* <section class="subsribe_container"> */
 
   .subsribe_container {
-    height: 693px;
+    height: 614px;
     background-size: cover;
   }
 
@@ -712,6 +718,7 @@ form button {
   .text__main__brand {
     border-left: 12px solid #F16D7F;
     padding-left: 15px;
+    margin-bottom: 0;
   }
 
   .text__main__brand h1 {
@@ -911,3 +918,8 @@ svg:hover {
 .menu_bar:hover+.hidden {
   display: block;
 }
+
+/* .menu_bar:focus~.hidden {
+  background: blueviolet;
+  display: block;
+} */
